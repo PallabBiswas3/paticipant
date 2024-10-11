@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+.students-container {
+	font-family: "Poppins", sans-serif;
+	background-color: #f3f4f6;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.student-card {
+	background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #764ba2 100%);
+	color: white;
+	width: 320px;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+	transition: transform 0.3s, box-shadow 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.student-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.student-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.student-name {
+	font-size: 22px;
+	font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.student-status {
+	padding: 6px 12px;
+	border-radius: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: white;
+}
+
+.student-status.paid {
+	background: linear-gradient(135deg, #34e89e 0%, #0f3443 100%);
+}
+
+.student-status.unpaid {
+	background: linear-gradient(135deg, #ff7e5f 0%, #d72d3a 100%);
+}
+/* From Uiverse.io by mrhyddenn */
+.shadow__btn {
+	padding: 10px 20px;
+	border: none;
+	font-size: 10px;
+	color: #fff;
+	border-radius: 7px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.5s;
+	transition-property: box-shadow;
+}
+
+.shadow__btn {
+	background: rgb(0, 140, 255);
+	box-shadow: 0 0 15px rgb(0, 140, 255);
+}
+
+.shadow__btn:hover {
+	box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 7px rgb(0, 140, 255),
+		0 0 10px rgb(0, 140, 255), 0 0 20px rgb(0, 140, 255);
+	cursor: pointer;
+}
+.participation-details {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 576px) {
+	.student-card {
+		width: calc(50% - 20px); /* 2 cards per row */
+	}
+}
+
+@media (min-width: 768px) {
+	.student-card {
+		width: calc(33.33% - 20px); /* 3 cards per row */
+	}
+}
+
+@media (min-width: 992px) {
+	.student-card {
+		width: calc(25% - 20px); /* 4 cards per row */
+	}
 }

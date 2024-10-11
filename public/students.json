@@ -1,0 +1,82 @@
+[
+  {
+    "name": "John Doe",
+    "phoneNumber": "1234567890",
+    "rollNumber": "101",
+    "pid": "P001",
+    "paymentStatus": "Paid",
+    "hall": "A1",
+    "glParticipated": "John Doe",
+    "eventsParticipated": ["Space Challenge", "Coding Marathon"]
+  },
+  {
+    "name": "Jane Smith",
+    "phoneNumber": "0987654321",
+    "rollNumber": "102",
+    "pid": "P002",
+    "paymentStatus": "Unpaid",
+    "hall": "B2",
+    "glParticipated": "Jane Smith",
+    "eventsParticipated": ["Design Sprint", "AI Workshop"]
+  },
+  {
+    "name": "Jane Smith",
+    "phoneNumber": "0987654321",
+    "rollNumber": "102",
+    "pid": "P002",
+    "paymentStatus": "Paid",
+    "hall": "B2",
+    "glParticipated": "Jane Smith",
+    "eventsParticipated": ["Design Sprint", "AI Workshop"]
+  },
+  {
+    "name": "Jane Smith",
+    "phoneNumber": "0987654321",
+    "rollNumber": "102",
+    "pid": "P002",
+    "paymentStatus": "Unpaid",
+    "hall": "B2",
+    "glParticipated": "Jane Smith",
+    "eventsParticipated": ["Design Sprint", "AI Workshop"]
+  },
+  {
+    "name": "John Doe",
+    "phoneNumber": "1234567890",
+    "rollNumber": "101",
+    "pid": "P001",
+    "paymentStatus": "Paid",
+    "hall": "A1",
+    "glParticipated": "John Doe",
+    "eventsParticipated": ["Space Challenge", "Coding Marathon"]
+  },
+  {
+    "name": "Jane Smith",
+    "phoneNumber": "0987654321",
+    "rollNumber": "102",
+    "pid": "P002",
+    "paymentStatus": "Unpaid",
+    "hall": "B2",
+    "glParticipated": "Jane Smith",
+    "eventsParticipated": ["Design Sprint", "AI Workshop"]
+  },
+  {
+    "name": "Jane Smith",
+    "phoneNumber": "0987654321",
+    "rollNumber": "102",
+    "pid": "P002",
+    "paymentStatus": "Paid",
+    "hall": "B2",
+    "glParticipated": "Jane Smith",
+    "eventsParticipated": ["Design Sprint", "AI Workshop"]
+  },
+  {
+    "name": "Jane Smith",
+    "phoneNumber": "0987654321",
+    "rollNumber": "102",
+    "pid": "P002",
+    "paymentStatus": "Unpaid",
+    "hall": "B2",
+    "glParticipated": "Jane Smith",
+    "eventsParticipated": ["Design Sprint", "AI Workshop"]
+  }
+]
